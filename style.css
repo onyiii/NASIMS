@@ -1,6 +1,20 @@
-.nav-style {
-  z-index: 1;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+html {
+  background-color: #fff;
+  color: #555;
+  font-family: Arial, Helvetica, sans-serif;
+
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  overflow-x: hidden;
+}
+
 .company-name {
   width: 500px;
   line-height: 1.5rem;
@@ -8,6 +22,9 @@
   display: block;
   font-weight: 500;
   margin-left: 2rem;
+}
+.carousel-one {
+  margin-left: 5rem;
 }
 .welcome.carousel {
   font-size: 1.5rem;
@@ -53,4 +70,52 @@
 }
 #card-details-3 {
   line-height: 2.7rem;
+}
+
+@media screen and (max-width: 991px) {
+  body {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+  .onyi {
+    display: none;
+  }
+  .the-text {
+    margin-left: 0;
+  }
+  .notes {
+    margin-left: 0.1;
+  }
+  #onyi1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), #000),
+      url("/IMAGES/WhatsApp Image 2021-11-07 at 05.33.50.jpeg");
+    background-size: cover;
+    background-position: center;
+
+    justify-content: center;
+    color: #fff;
+    overflow-x: hidden;
+  }
+
+  #onyi2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), #000),
+      url("/IMAGES/WhatsApp Image 2021-11-07 at 05.33.51.jpeg");
+    background-size: cover;
+    background-position: center;
+
+    justify-content: center;
+    color: #fff;
+    overflow-x: hidden;
+  }
+
+  #onyi3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), #000),
+      url("/IMAGES/WhatsApp Image 2021-11-07 at 05.33.51 (1).jpeg");
+    background-size: cover;
+    background-position: center;
+
+    justify-content: center;
+    color: #fff;
+    overflow-x: hidden;
+  }
 }
