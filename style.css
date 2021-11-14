@@ -1,0 +1,43 @@
+.nav-style {
+  z-index: 1;
+}
+.company-name {
+  width: 500px;
+  line-height: 1.5rem;
+  font-size: 1.1rem;
+  display: block;
+  font-weight: 500;
+  margin-left: 2rem;
+}
+.welcome.carousel {
+  font-size: 1.5rem;
+}
+.body-carousel {
+  line-height: 2.5rem;
+  font-size: 1.5rem;
+  width: 300px;
+}
+.about-us {
+  margin-left: 2rem;
+}
+.work-pics {
+  margin-left: 8rem;
+}
+#news-page {
+  max-width: 100%;
+  text-align: center;
+  margin-top: 3rem;
+}
+#be-the-first {
+  padding: 4rem;
+  margin-top: 3rem;
+  line-height: 3rem;
+}
+#got-questions {
+  padding: 4rem;
+}
+#last-part {
+  padding: 4rem;
+  background: #07321b;
+  line-height: 3rem;
+}
