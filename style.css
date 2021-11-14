@@ -20,8 +20,15 @@
 .about-us {
   margin-left: 2rem;
 }
+#buhari {
+  width: 500px;
+  height: auto;
+}
+.notes {
+  text-align: justify;
+}
 .work-pics {
-  margin-left: 8rem;
+  margin-left: 6rem;
 }
 #news-page {
   max-width: 100%;
@@ -40,4 +47,10 @@
   padding: 4rem;
   background: #07321b;
   line-height: 3rem;
+}
+#card-details-2 {
+  line-height: 1.85rem;
+}
+#card-details-3 {
+  line-height: 2.7rem;
 }
