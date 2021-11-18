@@ -71,6 +71,10 @@ body {
 #card-details-3 {
   line-height: 2.7rem;
 }
+.contact-main {
+  background-color: #f9ecdc;
+  position: relative;
+}
 
 @media screen and (max-width: 991px) {
   body {
