@@ -75,7 +75,20 @@ body {
   background-color: #f9ecdc;
   position: relative;
 }
-
+.backg-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("/IMAGES/backg.jpg");
+  min-height: 400px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.the-writeup {
+  padding: 10rem;
+}
+.second-section {
+  margin-top: 9rem;
+}
 @media screen and (max-width: 991px) {
   body {
     overflow-x: hidden;
