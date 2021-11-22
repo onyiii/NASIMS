@@ -89,6 +89,17 @@ body {
 .second-section {
   margin-top: 9rem;
 }
+.about-program {
+  background-color: #fffbf6;
+}
+.main-div {
+  padding-top: 9rem;
+}
+.login-details {
+  width: 40%;
+  background-color: #dbf9ea;
+  word-spacing: 5px;
+}
 @media screen and (max-width: 991px) {
   body {
     overflow-x: hidden;
